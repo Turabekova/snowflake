@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    overflow: hidden;
+}
+
+.fa-snowflake-o {
+    position: absolute;
+    top: -3px;
+    animation: all infinite forwards;
+    color: rgb(205, 229, 245);
+}
+
+@keyframes all {
+    to {
+        transform: translateY(150vh);
+    }
+}
